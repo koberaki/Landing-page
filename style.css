@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-* {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:not(blockquote) {
   margin: 0;
 }
 html,
@@ -85,18 +85,19 @@ a {
   height: 100%;
   width: 50%;
   background-color: #a8a6a6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
+.placeholder-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .second-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 850px;
   margin: 0 auto;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 
 h2 {
@@ -123,7 +124,7 @@ h2 {
 .info p {
   padding-top: 10px;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   color: #a8a6a6;
 }
 
@@ -134,8 +135,36 @@ h2 {
   width: 150px;
 }
 
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .third-section {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #e5e7eb;
+  padding: 50px 0;
+}
+
+.quote-container {
+  width: 880px;
+  margin: 0 auto;
+}
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.cite-container {
+  text-align: right;
+  width: 880px;
+}
+cite {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 60px;
 }
